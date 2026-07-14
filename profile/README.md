@@ -83,6 +83,7 @@ The current repositories represent the open-source research and validation envir
 
 For enterprise integration, commercial deployments, or access to the classified Virtual Data Room (VDR), explicit authorization and a Mutual Non-Disclosure Agreement (MNDA) are required.
 
-```
+Copyright © 2026 PoWV Protocol. All rights reserved.
+[SYSTEM_LAW_ENFORCEMENT: ENFORCING_MATH_AND_DECENTRALIZED_TRUST]
 
 ```
