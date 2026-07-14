@@ -1,88 +1,88 @@
-# PoWV Virtual Lab
+# 🔬 PoWV Protocol • Open Research Org
 
-> Public research environment for the PoWV (Proof of Weighted Value) Protocol.
+```diff
+===========================================================================
+● POWV PROTOCOL // PUBLIC RESEARCH & VALIDATION ENVIRONMENT
+===========================================================================
+ status: active // enforcing hardware-rooted trust and architectural consensus
+===========================================================================
 
-This repository contains the public research implementation and validation environment used to evaluate the architectural concepts behind the PoWV Protocol.
+```
 
-The public version intentionally excludes proprietary algorithms, industrial integrations, production firmware, cryptographic material, confidential datasets and commercial implementation details.
-
----
-
-## Repository Overview
-
-### Core Components
-
-- Event Processing Layer
-- Edge Gateway
-- Trust & Verification Layer
-- Evidence Anchoring
-- Audit Services
-- Device Provisioning
-- Monitoring Utilities
-- Validation Framework
+> **Public research environment for the PoWV (Proof of Weighted Value) Protocol.**
+> This organization hosts the public implementation and validation environment used to evaluate the architectural concepts and cryptographic boundaries behind the PoWV ecosystem.
 
 ---
 
-## Development Utilities
+## 🏗️ Ecosystem Topology
 
-The laboratory includes tooling for:
+The core services are modularized to separate physical ingestion from mathematical consensus.
 
-- Device provisioning
-- Test automation
-- Event generation
-- Evidence verification
-- Monitoring
-- Report generation
-- Development diagnostics
+```rust
+// PoWV ARCHITECTURAL BLUEPRINT
+PoWV_Virtual_Lab/
+├── 📡 Event_Processing/   // Edge Gateway & Compact Binary Ingestion
+├── 🛡️ Trust_Layer/        // ECDSA Signatures & Cryptographic Admissibility
+├── 🧱 Audit_Layer/        // Merkle Root Consensus & Evidence Anchoring
+├── 🔎 Verification/       // Security Analysis & Packet Validation
+└── 🛠️ Dev_Tools/          // Device Provisioning, Feeder & Test Automation
 
----
-
-## Validation
-
-The public repository includes documentation and validation material covering:
-
-- Security analysis
-- Test methodology
-- Packet validation
-- Binary format verification
-- Performance measurements
+```
 
 ---
 
-## Public Documentation
+## ⚙️ Core Components & Utilities
 
-- Project Overview
-- PoWV-SBD-v1 Technical Specification
-- Security Analysis
-- Validation Reports
+Our open research repository provides a comprehensive suite of tools for end-to-end simulation of cyber-physical data workflows.
 
----
-
-## Repository Policy
-
-The public repository intentionally excludes:
-
-- Production firmware
-- Proprietary algorithms
-- Industrial integration logic
-- Commercial deployment architecture
-- Secure Element provisioning material
-- Private cryptographic keys
-- Runtime databases
-- Generated evidence
-- Internal operational procedures
+| Domain | Integrated Capabilities |
+| --- | --- |
+| **Edge Ingestion** | Event Processing Layer, Edge Gateway APIs, Packet Validation. |
+| **Cryptographic Trust** | Trust & Verification Layer, Evidence Anchoring, Audit Services. |
+| **Development Tooling** | Device Provisioning, Event Generation (Feeder), Stream Monitoring. |
+| **Quality Assurance** | Automated Test Frameworks, Performance Diagnostics, Report Generation. |
 
 ---
 
-## Research Status
+## 📑 Public Documentation & Validation
 
-Current repository represents the research and validation environment of the PoWV Protocol.
+The public repository includes rigorous documentation and validation materials covering the foundational layers of the protocol:
 
-Certain implementation details remain proprietary and are reserved for commercial deployments and intellectual property protection.
+* **PoWV-SBD-v1 Technical Specification**
+* **Security Analysis & Threat Modeling**
+* **Binary Format Verification Reports**
+* **Performance & Event Size Measurements**
+* **Test Methodology & Architecture Overview**
 
-Core Services
-├── Event Processing
-├── Trust Layer
-├── Audit Layer
-├── Verification Services
-└── Development Tools
+---
+
+## 🔒 Security & Intellectual Property Policy
+
+```ini
+[RESTRICTED_ACCESS_POLICY // COMMERCIAL ASSETS]
+
+; To protect our core intellectual property, the public repository 
+; intentionally excludes the following proprietary assets:
+
+Production_Firmware           = EXCLUDED  ; Hardware-level code
+Proprietary_Algorithms        = EXCLUDED  ; Advanced Edge AI logic
+Industrial_Integration        = EXCLUDED  ; Custom port/railway pipelines
+Commercial_Architecture       = EXCLUDED  ; Enterprise deployment scaling
+Secure_Element_Material       = EXCLUDED  ; Provisioning HSM keys
+Runtime_Databases             = EXCLUDED  ; Active telemetry logs
+
+```
+
+*Certain implementation details remain strictly proprietary and are reserved for commercial deployments, enterprise pilots, and intellectual property protection.*
+
+---
+
+## 🤝 Contact & Research Inquiries
+
+The current repositories represent the open-source research and validation environment of the PoWV Protocol.
+
+For enterprise integration, commercial deployments, or access to the classified Virtual Data Room (VDR), explicit authorization and a Mutual Non-Disclosure Agreement (MNDA) are required.
+
+```
+
+```
