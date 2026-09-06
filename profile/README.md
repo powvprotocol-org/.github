@@ -72,6 +72,7 @@ Secure_Element_Material       = EXCLUDED  ; Provisioning HSM keys
 Runtime_Databases             = EXCLUDED  ; Active telemetry logs
 
 ```
+https://powv-protocol.gitbook.io/powv-protocol-docs/
 
 *Certain implementation details remain strictly proprietary and are reserved for commercial deployments, enterprise pilots, and intellectual property protection.*
 
