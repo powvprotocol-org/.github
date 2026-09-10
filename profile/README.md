@@ -83,10 +83,6 @@ Creator and founder of PoWV Protocol.
 
 **Executive Contact:** [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com)
 
-**Official websites:**
-- [www.powvprotocol.com](https://www.powvprotocol.com)
-- [www.powvprotocol.org](https://www.powvprotocol.org)
-
 - ## Official Channels
 
 - 🌐 **Website:** [powvprotocol.com](https://powvprotocol.com/)
