@@ -168,6 +168,6 @@ The protocol subjects downstream representations to a verifiable chain of instru
 
 **Executive Contact:** [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com)
 
-{% hint style="info" %}
+
 This public documentation presents PoWV at an institutional and conceptual level. Firmware logic, security parameters, industrial integration methods, implementation sequences, credentials, and proprietary technical material are restricted.
-{% endhint %}
+
