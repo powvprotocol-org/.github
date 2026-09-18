@@ -17,9 +17,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-proof%20of%20concept-2563EB?style=flat-square" alt="Status: proof of concept" />
-  <img src="https://img.shields.io/badge/focus-cyber--physical%20evidence-0F766E?style=flat-square" alt="Focus: cyber-physical evidence" />
-  <img src="https://img.shields.io/badge/domain-real--world%20assets-7C3AED?style=flat-square" alt="Domain: real-world assets" />
+  <img src="https://img.shields.io/badge/STATUS-Proof%20of%20Concept-2563EB?style=for-the-badge&labelColor=111827" alt="Status: proof of concept" />
+  <img src="https://img.shields.io/badge/FOCUS-Cyber--Physical%20Evidence-0F766E?style=for-the-badge&labelColor=111827" alt="Focus: cyber-physical evidence" />
+  <img src="https://img.shields.io/badge/DOMAIN-Real--World%20Assets-7C3AED?style=for-the-badge&labelColor=111827" alt="Domain: real-world assets" />
 </p>
 
 ---
