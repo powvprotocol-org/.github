@@ -1,94 +1,134 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/298460041?v=4" alt="PoWV Protocol" width="160">
+  <img src="https://avatars.githubusercontent.com/u/298460041?v=4" alt="PoWV Protocol" width="148" />
 </p>
 
 <h1 align="center">PoWV Protocol</h1>
 
 <p align="center">
-  <strong>Cyber-Physical Systems &amp; Real-World Asset Infrastructure</strong><br>
-  Proof of Weighted Value
+  <strong>Evidence infrastructure for the physical world</strong><br />
+  Cyber-physical systems · Edge computing · Industrial traceability · RWA infrastructure
 </p>
 
 <p align="center">
-  <a href="https://www.powvprotocol.com">Website</a> ·
-  <a href="https://www.powvprotocol.org">Institutional</a> ·
-  <a href="https://powv-protocol.gitbook.io/powv-protocol-docs/">Documentation</a>
+  <a href="https://powvprotocol.com/">Website</a> ·
+  <a href="https://www.powvprotocol.org/">Institutional</a> ·
+  <a href="https://powv-protocol.gitbook.io/powv-protocol-docs/overview">Documentation</a> ·
+  <a href="https://www.linkedin.com/company/powv-protocol/">LinkedIn</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-proof%20of%20concept-2563EB?style=flat-square" alt="Status: proof of concept" />
+  <img src="https://img.shields.io/badge/focus-cyber--physical%20evidence-0F766E?style=flat-square" alt="Focus: cyber-physical evidence" />
+  <img src="https://img.shields.io/badge/domain-real--world%20assets-7C3AED?style=flat-square" alt="Domain: real-world assets" />
 </p>
 
 ---
 
-## About PoWV
+## Overview
 
-Created by **Gabriel de Almeida Santos Silva**, **PoWV — Proof of Weighted Value** is a protocol under development designed to connect industrial infrastructure with digital ledgers through verifiable evidence of physical events.
+**PoWV — Proof of Weighted Value** is a research and development protocol for connecting physical infrastructure with trustworthy digital evidence.
 
-Its research brings together cyber-physical systems, edge computing, industrial traceability, and Real-World Asset (RWA) infrastructure.
+The project investigates how measurements, operational events, and asset observations can be captured near their source, associated with verifiable provenance, and made useful to digital systems responsible for governance, reconciliation, traceability, and real-world asset applications.
 
-The objective is to strengthen the evidence on which asset governance, operational reconciliation, and downstream financial applications depend.
+> **Core principle:** digital trust begins before an event reaches a ledger. It begins at the point where the physical world becomes data.
 
-## The Zero-Mile Problem
+PoWV is being developed by **Gabriel de Almeida Santos Silva** and brings together systems engineering, embedded security, edge computing, industrial traceability, and decentralized infrastructure.
 
-Before a physical event becomes an auditable record, it must first become data.
+## The zero-mile problem
 
-This initial translation—from a measurement or operational occurrence into a digital representation—is a critical boundary for asset governance. Protecting a record after capture does not, by itself, establish the accuracy of the original observation.
+Most digital verification systems focus on protecting a record after it has been created. PoWV focuses on the boundary before that record exists: the first translation from a physical event into a digital representation.
 
-PoWV focuses on this boundary through three complementary dimensions:
+That boundary raises three fundamental questions:
 
-- **Measurement quality:** the conditions and reliability of the physical observation.
-- **Source identity:** the provenance of the recorded evidence.
-- **Record integrity:** the ability to detect changes to the digital record.
-
-## Research Areas
-
-| Area | Focus |
+| Dimension | Question |
 | --- | --- |
-| **Cyber-Physical Systems** | Connecting physical observations with digital evidence. |
-| **Edge Computing** | Investigating evidence generation close to the source. |
-| **Industrial Traceability** | Supporting asset history and chain-of-custody review. |
-| **Digital Twins & Enterprise Systems** | Exploring how operational evidence can inform digital representations and business processes. |
-| **RWA Infrastructure** | Developing evidence foundations for asset representation and financial applications. |
-| **Efficiency Evaluation** | Distinguishing compact-data estimates from measured network performance. |
+| **Measurement quality** | Under what conditions was the observation produced, and how reliable is it? |
+| **Source identity** | Can the origin of the evidence be identified and reviewed? |
+| **Record integrity** | Can unauthorized changes to the resulting record be detected? |
 
-## Application Scenarios
+By treating these questions as a single evidence pipeline, PoWV explores stronger foundations for asset governance and downstream digital applications.
 
-PoWV investigates applications across:
+## Research focus
 
-- Rail and road freight.
-- Commodity handling and industrial logistics.
-- Environmental operations and material traceability.
-- Infrastructure monitoring and asset governance.
+| Area | What we investigate |
+| --- | --- |
+| **Cyber-physical systems** | Translating physical observations into structured digital evidence. |
+| **Edge computing** | Generating and validating evidence close to its source. |
+| **Embedded security** | Hardware-backed identity, secure elements, and root-of-trust models. |
+| **Industrial traceability** | Supporting asset history, chain of custody, and operational review. |
+| **Digital twins & enterprise systems** | Connecting operational evidence with digital representations and business workflows. |
+| **RWA infrastructure** | Exploring evidence foundations for real-world asset representation and financial applications. |
+| **Efficiency evaluation** | Separating compact-data estimates from measured network and system performance. |
 
-These are research and development scenarios, not claims of deployed integrations or commercial partnerships.
+## Application scenarios
 
-## From Architecture to Bench
+PoWV explores evidence-driven workflows for:
+
+- Rail and road freight
+- Commodity handling and industrial logistics
+- Environmental operations and material traceability
+- Infrastructure monitoring and asset governance
+- Physical-to-digital event verification
+
+These are **research and development scenarios**, not claims of deployed integrations, production readiness, or commercial partnerships.
+
+## Architecture at a glance
+
+```text
+Physical event
+      ↓
+Sensing & acquisition
+      ↓
+Edge processing and source identity
+      ↓
+Evidence integrity and audit trail
+      ↓
+Digital systems, governance and RWA applications
+```
+
+The architecture is designed to keep the origin, conditions, and integrity of an observation visible throughout its lifecycle—without treating a ledger as a substitute for trustworthy data capture.
+
+## Development status
 
 **Current stage: proof of concept in development.**
 
-Development combines software simulation, experimental bench work, and technical documentation. Each validation should identify what was tested, under which conditions, and what the results actually establish.
+Development combines software simulation, experimental bench work, security-oriented research, and technical documentation. Each validation should state what was tested, under which conditions, and which conclusions the evidence supports.
 
-Selected software checks have been documented. Physical validation, end-to-end integration, and performance evaluation remain separate development milestones.
+Selected software checks have been documented. Physical validation, end-to-end integration, and performance evaluation remain independent development milestones.
 
 - [Validation Evidence](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/validation-evidence)
 - [Efficiency Evaluation](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/efficiency-evaluation)
+- [Public Documentation](https://powv-protocol.gitbook.io/powv-protocol-docs/overview)
 
-## Public Documentation
+## Public repositories
 
-This organization presents PoWV’s research direction, project resources, and public documentation.
+| Repository | Purpose |
+| --- | --- |
+| [**powv-core**](https://github.com/powvprotocol-org/powv-core) | Core protocol architecture and verification foundations. |
+| [**powv-embedded-security**](https://github.com/powvprotocol-org/powv-embedded-security) | Embedded cryptographic security, HSM configuration, and root-of-trust research. |
+| [**Digital Sandbox**](https://github.com/powvprotocol-org/PoWV-Protocol-Digital-sandbox) | Interactive environment for cyber-physical oracle validation and telemetry auditing. |
 
-Public materials describe capabilities, architectural concepts, and sanitized validation evidence. Proprietary implementation details, credentials, and sensitive operational information remain restricted.
+> Public repositories contain selected research material and sanitized implementation details. Proprietary implementation, credentials, and sensitive operational information are intentionally excluded.
 
-## Founder & Contact
+## Founder & contact
 
 **Gabriel de Almeida Santos Silva**  
-Creator and founder of PoWV Protocol.
+Creator and founder of PoWV Protocol
 
-**Executive Contact:** [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com)
+- **Executive contact:** [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com)
+- **General contact:** [gabriel@powvprotocol.org](mailto:gabriel@powvprotocol.org)
 
-- ## Official Channels
+## Official channels
 
-- 🌐 **Website:** [powvprotocol.com](https://powvprotocol.com/)
-- 🏛️ **Institutional:** [powvprotocol.org](https://www.powvprotocol.org/)
-- 📚 **Documentation:** [PoWV Protocol Documentation](https://powv-protocol.gitbook.io/powv-protocol-docs/overview)
-- 💼 **LinkedIn:** [PoWV Protocol](https://www.linkedin.com/company/powv-protocol/)
-- ▶️ **YouTube:** [@GabrielProtocolPowv](https://www.youtube.com/@GabrielProtocolPowv)
-- ✍️ **Substack:** [PoWV Protocol](https://powvprotocol.substack.com/)
-- ✉️ **Contact:** [gabriel@powvprotocol.org](mailto:gabriel@powvprotocol.org)
+- 🌐 [Website](https://powvprotocol.com/)
+- 🏛️ [Institutional](https://www.powvprotocol.org/)
+- 📚 [Documentation](https://powv-protocol.gitbook.io/powv-protocol-docs/overview)
+- 💼 [LinkedIn](https://www.linkedin.com/company/powv-protocol/)
+- ▶️ [YouTube](https://www.youtube.com/@GabrielProtocolPowv)
+- ✍️ [Substack](https://powvprotocol.substack.com/)
+
+---
+
+<p align="center">
+  <sub>PoWV Protocol · Proof of Weighted Value · Researching trustworthy evidence for the physical world.</sub>
+</p>
