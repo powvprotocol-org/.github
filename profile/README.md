@@ -106,6 +106,7 @@ Selected software checks were documented on September 6, 2026. A separate labora
 
 | Repository | Purpose |
 | --- | --- |
+| [**powv-governance-and-docs**](https://github.com/powvprotocol-org/powv-governance-and-docs) | Public governance, intellectual-property policies, disclosure boundaries, and GitBook documentation source. |
 | [**powv-core**](https://github.com/powvprotocol-org/powv-core) | Core protocol architecture and verification foundations. |
 | [**powv-embedded-security**](https://github.com/powvprotocol-org/powv-embedded-security) | Public security reporting policy and scope for embedded-security research. |
 | [**powv-scale-edge-integration**](https://github.com/powvprotocol-org/powv-scale-edge-integration) | Laboratory record of physical acquisition, structured events, and ESP32 receipt. |
