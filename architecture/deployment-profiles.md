@@ -1,22 +1,7 @@
----
-description: Public profiles for fixed, mobile, remote, and hybrid PoWV environments.
-icon: objects-column
----
-
 # Deployment Profiles
 
-Deployment profiles describe operating conditions without prescribing proprietary hardware or software.
+This page is maintained in the official PoWV Governance & Documentation repository.
 
-| Profile           | Operating context                          | Assurance emphasis                              | Typical constraint                |
-| ----------------- | ------------------------------------------ | ----------------------------------------------- | --------------------------------- |
-| Fixed Site        | Industrial or warehouse environment        | Stable provenance and repeatable review         | Legacy integration                |
-| Corridor          | Road, rail, or multimodal movement         | Custody continuity and exception visibility     | Multiple organizations            |
-| Remote            | Sparse or intermittent connectivity        | Evidence durability and reconciliation          | Limited bandwidth or availability |
-| Mobile Field      | Human-operated collection or inspection    | Context completeness and accountable submission | Variable devices and conditions   |
-| Enterprise Hybrid | Existing operational and financial systems | Interoperability and controlled disclosure      | Heterogeneous data governance     |
+[Read the current Deployment Profiles page](https://github.com/powvprotocol-org/powv-governance-and-docs/blob/main/powvprotocol-org/powv-protocol-docs/powv-protocol-documentation/untitled/architecture/deployment-profiles.md)
 
-## Profile selection
-
-A deployment profile is selected by risk, evidence policy, infrastructure constraints, authorized stakeholders, and the consequence of accepting an unsupported claim.
-
-Profiles are not product SKUs and do not disclose internal topology. They are a public vocabulary for discussing deployment requirements.
+Please make documentation changes in that source so GitHub and GitBook use the same version. Earlier content remains available in this repository's Git history.

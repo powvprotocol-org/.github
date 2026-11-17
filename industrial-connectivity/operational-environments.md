@@ -1,27 +1,7 @@
----
-description: How PoWV frames fixed, mobile, remote, and hybrid industrial connectivity.
-icon: tower-cell
----
-
 # Operational Environments
 
-Industrial connectivity is not only a networking problem. It is an evidence-continuity problem.
+This page is maintained in the official PoWV Governance & Documentation repository.
 
-## Public requirements by condition
+[Read the current Operational Environments page](https://github.com/powvprotocol-org/powv-governance-and-docs/blob/main/powvprotocol-org/powv-protocol-docs/powv-protocol-documentation/untitled/industrial-connectivity/operational-environments.md)
 
-| Condition                 | Assurance risk                                         | Public requirement                                                |
-| ------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
-| Stable local connectivity | Overreliance on a central operational database         | Preserve independent reviewability                                |
-| Intermittent connectivity | Events arrive outside their original temporal context  | Preserve ordered and accountable reconciliation                   |
-| Multiple custody points   | Responsibility becomes fragmented                      | Maintain reviewable handoffs                                      |
-| Heterogeneous equipment   | Source semantics differ across sites                   | Normalize assurance meaning without exposing proprietary adapters |
-| Remote operations         | Limited availability for immediate external validation | Retain durable evidence for controlled verification               |
-| Human-assisted capture    | Incomplete or inconsistent context                     | Apply accountable submission and exception handling               |
-
-## Transport independence
-
-The public architecture does not depend on one terrestrial, satellite, cellular, or local transport. Connectivity is treated as a deployment concern governed by evidence durability, authorization, and reconciliation requirements.
-
-## Enterprise integration
-
-Authorized systems may consume an assurance outcome for audit, compliance, risk, insurance, finance, or reporting. Customer-specific schemas, connectors, credentials, and deployment procedures are restricted.
+Please make documentation changes in that source so GitHub and GitBook use the same version. Earlier content remains available in this repository's Git history.
