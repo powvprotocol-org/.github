@@ -94,7 +94,9 @@ The architecture is designed to keep the origin, conditions, and integrity of an
 
 Development combines software simulation, experimental bench work, security-oriented research, and technical documentation. Each validation should state what was tested, under which conditions, and which conclusions the evidence supports.
 
-Selected software checks have been documented. Physical validation, end-to-end integration, and performance evaluation remain independent development milestones.
+Selected software checks were documented on September 6, 2026. A separate laboratory record dated September 18, 2026 documents acquisition from a real weighing instrument, structured event construction, SHA-256 integrity identification, local transport, and ESP32 receipt. Independent edge verification, hardware-backed identity, durable anchoring, and production performance remain separate validation milestones.
+
+- [Physical-to-Edge Experimental Record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md)
 
 - [Validation Evidence](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/validation-evidence)
 - [Efficiency Evaluation](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/efficiency-evaluation)
@@ -105,8 +107,9 @@ Selected software checks have been documented. Physical validation, end-to-end i
 | Repository | Purpose |
 | --- | --- |
 | [**powv-core**](https://github.com/powvprotocol-org/powv-core) | Core protocol architecture and verification foundations. |
-| [**powv-embedded-security**](https://github.com/powvprotocol-org/powv-embedded-security) | Embedded cryptographic security, HSM configuration, and root-of-trust research. |
-| [**Digital Sandbox**](https://github.com/powvprotocol-org/PoWV-Protocol-Digital-sandbox) | Interactive environment for cyber-physical oracle validation and telemetry auditing. |
+| [**powv-embedded-security**](https://github.com/powvprotocol-org/powv-embedded-security) | Public security reporting policy and scope for embedded-security research. |
+| [**powv-scale-edge-integration**](https://github.com/powvprotocol-org/powv-scale-edge-integration) | Laboratory record of physical acquisition, structured events, and ESP32 receipt. |
+| [**powv-lab-status**](https://github.com/powvprotocol-org/powv-lab-status) | Public Virtual Lab status, maturity, and disclosure boundaries. |
 
 > Public repositories contain selected research material and sanitized implementation details. Proprietary implementation, credentials, and sensitive operational information are intentionally excluded.
 

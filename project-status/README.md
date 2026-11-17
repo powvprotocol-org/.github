@@ -9,7 +9,7 @@ icon: chart-line
 
 PoWV Protocol is in research, architecture, and controlled validation. Public documentation distinguishes demonstrated public work from future or restricted development.
 
-## Latest validation snapshot
+## Software validation snapshot — September 6, 2026
 
 A controlled local audit was completed on **September 6, 2026** against a defined PoWV Virtual Lab source snapshot.
 
@@ -18,11 +18,22 @@ A controlled local audit was completed on **September 6, 2026** against a define
 * **5 simulated tamper and malformed-input scenarios were rejected**
 * **0 physical-hardware tests were performed**
 
-Read the Validation Evidence
+[Read the Validation Evidence](validation-evidence.md)
 
 {% hint style="info" %}
 These results support selected proof-of-concept software behaviors. They do not establish production readiness, certification, field performance, legal compliance, or guaranteed security.
 {% endhint %}
+
+## Physical integration milestone — September 18, 2026
+
+A separate controlled laboratory record documents acquisition from a real weighing instrument, normalization into a structured event, SHA-256 integrity identification, transport over a local network, ESP32 acknowledgment, and retrieval through a local inspection interface.
+
+This milestone extends the public record beyond software simulation. It does not establish independent edge hash verification, authenticated device identity, hardware-backed signatures, durable audit anchoring, or production chain of custody.
+
+- [Experimental Record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md)
+- [Integration Validation Matrix](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/validation.md)
+
+The software audit and physical experiment have different scopes; the software test counts above do not include the physical experiment.
 
 ## Maturity view
 
@@ -34,7 +45,8 @@ These results support selected proof-of-concept software behaviors. They do not 
 | Public sandbox                     | Research demonstration               | Demonstrates selected concepts; it is not a production implementation or security certification |
 | Assurance metrics                  | Framework defined                    | Evaluation indicators are documented; production benchmarks are not yet claimed                 |
 | End-to-end integration             | Not validated in the latest audit    | Running services and persistent integration state were outside the audit scope                  |
-| Physical and industrial interfaces | Planned / not tested                 | No physical equipment or external communication interface was used                              |
+| Physical acquisition and local edge transport | Demonstrated in a controlled laboratory PoC | September 18 record covers a real instrument, host acquisition, local transport, and ESP32 receipt |
+| Industrial qualification | Pending | Field reliability, secure hardware identity, recovery, and production chain of custody remain unvalidated |
 | Enterprise deployment              | Not publicly claimed                 | No public statement of production readiness or certified performance is made                    |
 | Token or financial settlement      | Research scope                       | Any implementation remains subject to technical, legal, regulatory, and market validation       |
 
@@ -43,7 +55,7 @@ These results support selected proof-of-concept software behaviors. They do not 
 * resolve test-discovery and runtime-consistency limitations;
 * validate end-to-end integration in a controlled environment;
 * establish deterministic recovery and connectivity tests;
-* progress from software simulation to authorized physical-bench testing;
+* extend the recorded physical-bench PoC with independent edge verification, authenticated identity, and durable evidence handling;
 * maintain separation between public evidence and restricted implementation.
 
 ## Founder and Chief Architect
