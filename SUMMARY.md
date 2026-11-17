@@ -1,25 +1,7 @@
 # Table of contents
 
-* [PoWV Protocol](README.md)
-* [The Problem](the-problem.md)
-* [Architecture](architecture/README.md)
-  * [Trust Domains](architecture/trust-domains.md)
-  * [Design Principles](architecture/design-principles.md)
-  * [Deployment Profiles](architecture/deployment-profiles.md)
-* [Verifiable Evidence](verifiable-evidence/README.md)
-  * [Evidence Model](verifiable-evidence/evidence-model.md)
-  * [Assurance Metrics](verifiable-evidence/assurance-metrics.md)
-* [Industrial Connectivity](industrial-connectivity/README.md)
-  * [Operational Environments](industrial-connectivity/operational-environments.md)
-* [Use Cases](use-cases.md)
-* [Security](security/README.md)
-  * [Threat Model](security/threat-model.md)
-  * [Disclosure Boundary](security/disclosure-boundary.md)
-* [Project Status](project-status/README.md)
-  * [Validation Evidence](project-status/validation-evidence.md)
-  * [Efficiency Evaluation](project-status/efficiency-evaluation.md)
-* [Research & Theses](research-and-theses/README.md)
-  * [The Zero-Mile Vulnerability](research-and-theses/the-zero-mile-vulnerability.md)
-  * [The Genesis of Data](research-and-theses/the-genesis-of-data.md)
-  * [From Architecture to Bench](research-and-theses/from-architecture-to-bench.md)
-* [Digital Twin, ERP Integration & Trade Finance](digital-twin-erp-trade-finance.md)
+This page is maintained in the official PoWV Governance & Documentation repository.
+
+[Read the current Table of contents page](https://github.com/powvprotocol-org/powv-governance-and-docs/blob/main/powvprotocol-org/powv-protocol-docs/powv-protocol-documentation/untitled/SUMMARY.md)
+
+Please make documentation changes in that source so GitHub and GitBook use the same version. Earlier content remains available in this repository's Git history.
