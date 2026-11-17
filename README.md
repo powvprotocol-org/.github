@@ -4,6 +4,8 @@ icon: circle-nodes
 
 # PoWV Protocol
 
+> **Documentation source:** GitBook is currently connected to the [documentation tree in Ip-and-trade-secrets](https://github.com/powvprotocol-org/Ip-and-trade-secrets/tree/main/powvprotocol-org/powv-protocol-docs/powv-protocol-documentation/untitled). This tree is a secondary copy pending reconciliation. Make documentation updates in the synchronized source; preserve unique content here until reconciliation is complete. The organization profile remains maintained in `profile/README.md`.
+
 ![PoWV Protocol — Proof of Weighted Value](https://raw.githubusercontent.com/powvprotocol-org/powvprotocol-org.github.io/main/logo.jpg)
 
 ## PoWV Protocol
