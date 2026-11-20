@@ -87,8 +87,8 @@ The [Lab Status repository](https://github.com/powvprotocol-org/powv-lab-status)
 
 **Gabriel de Almeida Santos Silva** · Founder & Protocol Architect
 
-- **Executive:** [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com)
-- **General:** [gabriel@powvprotocol.org](mailto:gabriel@powvprotocol.org)
+- **Executive contact:** [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com)
+- **General contact:** [gabriel@powvprotocol.org](mailto:gabriel@powvprotocol.org)
 - [LinkedIn](https://www.linkedin.com/company/powv-protocol/) · [YouTube](https://www.youtube.com/@GabrielProtocolPowv) · [Substack](https://powvprotocol.substack.com/)
 
 ---
