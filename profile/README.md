@@ -1,138 +1,96 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/298460041?v=4" alt="PoWV Protocol" width="148" />
+  <img src="https://avatars.githubusercontent.com/u/298460041?v=4" alt="PoWV Protocol" width="128" />
 </p>
 
 <h1 align="center">PoWV Protocol</h1>
 
 <p align="center">
   <strong>Evidence infrastructure for the physical world</strong><br />
-  Cyber-physical systems · Edge computing · Industrial traceability · RWA infrastructure
+  Cyber-physical systems · Operational trust · Industrial traceability · Real-world assets
 </p>
 
 <p align="center">
   <a href="https://powvprotocol.com/">Website</a> ·
   <a href="https://www.powvprotocol.org/">Institutional</a> ·
   <a href="https://powv-protocol.gitbook.io/powv-protocol-docs/overview">Documentation</a> ·
+  <a href="https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/">Product portfolio</a> ·
   <a href="https://www.linkedin.com/company/powv-protocol/">LinkedIn</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-Proof%20of%20Concept-2563EB?style=for-the-badge&labelColor=111827" alt="Status: proof of concept" />
-  <img src="https://img.shields.io/badge/FOCUS-Cyber--Physical%20Evidence-0F766E?style=for-the-badge&labelColor=111827" alt="Focus: cyber-physical evidence" />
-  <img src="https://img.shields.io/badge/DOMAIN-Real--World%20Assets-7C3AED?style=for-the-badge&labelColor=111827" alt="Domain: real-world assets" />
-</p>
-
 ---
 
-## Overview
+## At a glance
 
-**PoWV — Proof of Weighted Value** is a research and development protocol for connecting physical infrastructure with trustworthy digital evidence.
-
-The project investigates how measurements, operational events, and asset observations can be captured near their source, associated with verifiable provenance, and made useful to digital systems responsible for governance, reconciliation, traceability, and real-world asset applications.
-
-> **Core principle:** digital trust begins before an event reaches a ledger. It begins at the point where the physical world becomes data.
-
-PoWV is being developed by **Gabriel de Almeida Santos Silva** and brings together systems engineering, embedded security, edge computing, industrial traceability, and decentralized infrastructure.
-
-## The zero-mile problem
-
-Most digital verification systems focus on protecting a record after it has been created. PoWV focuses on the boundary before that record exists: the first translation from a physical event into a digital representation.
-
-That boundary raises three fundamental questions:
-
-| Dimension | Question |
+| Question | Current answer |
 | --- | --- |
-| **Measurement quality** | Under what conditions was the observation produced, and how reliable is it? |
-| **Source identity** | Can the origin of the evidence be identified and reviewed? |
-| **Record integrity** | Can unauthorized changes to the resulting record be detected? |
+| **What is PoWV?** | An R&D protocol and proposed product portfolio for producing, evaluating and using evidence about physical events. |
+| **What has been demonstrated?** | Selected software tests and a separate controlled laboratory path from a physical weighing instrument to an embedded receiver. |
+| **What is proposed?** | A verification foundation, an operational-trust platform, secure capture hardware and a financial-operations security profile. |
+| **What is not claimed?** | Production readiness, certification, verified physical truth, commercially available products or a live token-issuance, custody or settlement platform. |
+| **Where is the evidence?** | [Dated Lab Status](https://github.com/powvprotocol-org/powv-lab-status) and [Product Maturity](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/maturity). |
 
-By treating these questions as a single evidence pipeline, PoWV explores stronger foundations for asset governance and downstream digital applications.
+**Core principle:** A digital signature can support attribution and integrity; it cannot, by itself, establish the correctness of the original physical measurement.
 
-## Research focus
+PoWV investigates the boundary where an observation becomes digital evidence, and where downstream systems must decide whether that evidence is sufficient for a particular action.
 
-| Area | What we investigate |
-| --- | --- |
-| **Cyber-physical systems** | Translating physical observations into structured digital evidence. |
-| **Edge computing** | Generating and validating evidence close to its source. |
-| **Embedded security** | Hardware-backed identity, secure elements, and root-of-trust models. |
-| **Industrial traceability** | Supporting asset history, chain of custody, and operational review. |
-| **Digital twins & enterprise systems** | Connecting operational evidence with digital representations and business workflows. |
-| **RWA infrastructure** | Exploring evidence foundations for real-world asset representation and financial applications. |
-| **Efficiency evaluation** | Separating compact-data estimates from measured network and system performance. |
+## Product architecture
 
-## Application scenarios
+These are **product proposals in research and development**, not generally available offerings. The Protocol Suite, EdgeGuard and Secure Capture Node have distinct roles and can interoperate through defined verification rules. Digital Treasury is a proposed EdgeGuard profile.
 
-PoWV explores evidence-driven workflows for:
+| Product | Intended role | Current positioning |
+| --- | --- | --- |
+| [**PoWV Protocol Suite**](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/protocol-suite) | Foundational evidence and verification architecture for physical-to-digital workflows. | Protocol research and software experimentation |
+| [**PoWV EdgeGuard**](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/edgeguard) | Operational-trust and authorization platform: Edge Security Agent, Attestation Engine, Risk Quarantine Engine, Authorization Gateway, Verify Service and Audit Console. | Proposed platform architecture |
+| [**PoWV Secure Capture Node**](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/secure-capture-node) | Proposed hardware for attributable acquisition of physical-event evidence. | Hardware concept; earlier laboratory integration is precursor work, not product validation |
+| [**PoWV Digital Treasury**](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/edgeguard/digital-treasury) | EdgeGuard security and authorization profile for custody and financial-operation environments. | Proposed financial-security profile; not a custodian, token issuer or settlement operator |
 
-- Rail and road freight
-- Commodity handling and industrial logistics
-- Environmental operations and material traceability
-- Infrastructure monitoring and asset governance
-- Physical-to-digital event verification
+[Explore the Product Portfolio](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/) · [Trust Boundaries](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/trust-boundaries) · [Maturity and Availability](https://powv-protocol.gitbook.io/powv-protocol-docs/product-proposals/maturity)
 
-These are **research and development scenarios**, not claims of deployed integrations, production readiness, or commercial partnerships.
+## From physical evidence to economic applications
 
-## Architecture at a glance
+The long-term PoWV thesis includes physical asset backing, traceability, institutional recognition of economic value, RWA tokenization and trade finance. Its architecture separates four responsibilities:
 
-```text
-Physical event
-      ↓
-Sensing & acquisition
-      ↓
-Edge processing and source identity
-      ↓
-Evidence integrity and audit trail
-      ↓
-Digital systems, governance and RWA applications
-```
+1. **Physical evidence:** acquire and evaluate attributable records of observations and measurements.
+2. **Operational trust:** assess integrity and admissibility; apply separate authorization controls.
+3. **Economic recognition:** let an accountable institution determine whether a legally and economically valid asset or right exists.
+4. **Downstream finance:** enable other systems to use suitable evidence for tokenization, financing, custody or settlement.
 
-The architecture is designed to keep the origin, conditions, and integrity of an observation visible throughout its lifecycle—without treating a ledger as a substitute for trustworthy data capture.
+Evidence about a physical asset does **not** establish title, enforceability, valuation or economic finality. PoWV does not currently operate a production tokenization or financial settlement system.
 
-## Development status
+## Public engineering record
 
-**Current stage: proof of concept in development.**
+Each record supports only the scope tested at the time. Later experiments do not retrospectively validate earlier results.
 
-Development combines software simulation, experimental bench work, security-oriented research, and technical documentation. Each validation should state what was tested, under which conditions, and which conclusions the evidence supports.
+| Date | Public record | Demonstrated scope and limitations |
+| --- | --- | --- |
+| **September 6, 2026** | [Software validation snapshot](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/validation-evidence) | 25 selected software test cases; no physical-hardware validation. |
+| **September 18, 2026** | [Physical-to-edge experimental record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) | Physical weighing acquisition, event representation, integrity identification and local transport with embedded acknowledgment; not independent hardware-backed attestation. |
+| **November 20, 2026** | [Software engineering update](https://github.com/powvprotocol-org/powv-lab-status/blob/main/status/2026-11-software-engineering-update.md) | Experimental software hardening, conformance and provisional contract governance; 343 automated tests passed on Python 3.12 and 3.13, with no physical-hardware tests in that update and no approved release. |
 
-Selected software checks were documented on September 6, 2026. A separate laboratory record dated September 18, 2026 documents acquisition from a real weighing instrument, structured event construction, SHA-256 integrity identification, local transport, and ESP32 receipt. Independent edge verification, hardware-backed identity, durable anchoring, and production performance remain separate validation milestones.
-
-- [Physical-to-Edge Experimental Record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md)
-
-- [Validation Evidence](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/validation-evidence)
-- [Efficiency Evaluation](https://powv-protocol.gitbook.io/powv-protocol-docs/project-status/efficiency-evaluation)
-- [Public Documentation](https://powv-protocol.gitbook.io/powv-protocol-docs/overview)
+The [Lab Status repository](https://github.com/powvprotocol-org/powv-lab-status) is the canonical public index of dated engineering status and production-readiness limitations.
 
 ## Public repositories
 
-| Repository | Purpose |
+| Repository | Responsibility |
 | --- | --- |
-| [**powv-governance-and-docs**](https://github.com/powvprotocol-org/powv-governance-and-docs) | Public governance, intellectual-property policies, disclosure boundaries, and GitBook documentation source. |
-| [**powv-core**](https://github.com/powvprotocol-org/powv-core) | Core protocol architecture and verification foundations. |
-| [**powv-embedded-security**](https://github.com/powvprotocol-org/powv-embedded-security) | Public security reporting policy and scope for embedded-security research. |
-| [**powv-scale-edge-integration**](https://github.com/powvprotocol-org/powv-scale-edge-integration) | Laboratory record of physical acquisition, structured events, and ESP32 receipt. |
-| [**powv-lab-status**](https://github.com/powvprotocol-org/powv-lab-status) | Public Virtual Lab status, maturity, and disclosure boundaries. |
+| [**powv-governance-and-docs**](https://github.com/powvprotocol-org/powv-governance-and-docs) | Canonical GitBook sources, disclosure boundaries and intellectual-property governance. |
+| [**powv-lab-status**](https://github.com/powvprotocol-org/powv-lab-status) | Dated validation evidence, development status and explicit limitations. |
+| [**powv-core**](https://github.com/powvprotocol-org/powv-core) | Protocol concepts, reference architecture and public research material. |
+| [**powv-scale-edge-integration**](https://github.com/powvprotocol-org/powv-scale-edge-integration) | Historical laboratory record of physical measurement acquisition and edge transport. |
+| [**powv-embedded-security**](https://github.com/powvprotocol-org/powv-embedded-security) | Public security-reporting guidance and scope of embedded-security research. |
+| [**powvprotocol-org.github.io**](https://github.com/powvprotocol-org/powvprotocol-org.github.io) | Source for the public research and institutional web interface. |
+| [**.github**](https://github.com/powvprotocol-org/.github) | Organization profile and documentation entry points. |
 
-> Public repositories contain selected research material and sanitized implementation details. Proprietary implementation, credentials, and sensitive operational information are intentionally excluded.
+**Documentation ownership:** GitBook content is maintained in `powv-governance-and-docs`. Other repositories link to that source rather than maintaining competing normative copies. Public documentation explains capabilities and evidence limits; proprietary implementations and confidential records remain access-controlled.
 
-## Founder & contact
+## Founder and contact
 
-**Gabriel de Almeida Santos Silva**  
-Creator and founder of PoWV Protocol
+**Gabriel de Almeida Santos Silva** · Founder & Protocol Architect
 
-- **Executive contact:** [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com)
-- **General contact:** [gabriel@powvprotocol.org](mailto:gabriel@powvprotocol.org)
-
-## Official channels
-
-- 🌐 [Website](https://powvprotocol.com/)
-- 🏛️ [Institutional](https://www.powvprotocol.org/)
-- 📚 [Documentation](https://powv-protocol.gitbook.io/powv-protocol-docs/overview)
-- 💼 [LinkedIn](https://www.linkedin.com/company/powv-protocol/)
-- ▶️ [YouTube](https://www.youtube.com/@GabrielProtocolPowv)
-- ✍️ [Substack](https://powvprotocol.substack.com/)
+- **Executive:** [gabriel@powvprotocol.com](mailto:gabriel@powvprotocol.com)
+- **General:** [gabriel@powvprotocol.org](mailto:gabriel@powvprotocol.org)
+- [LinkedIn](https://www.linkedin.com/company/powv-protocol/) · [YouTube](https://www.youtube.com/@GabrielProtocolPowv) · [Substack](https://powvprotocol.substack.com/)
 
 ---
 
-<p align="center">
-  <sub>PoWV Protocol · Proof of Weighted Value · Researching trustworthy evidence for the physical world.</sub>
-</p>
+<p align="center"><sub>PoWV Protocol · Research and development · Evidence before economic interpretation</sub></p>
